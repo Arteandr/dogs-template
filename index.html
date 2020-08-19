@@ -6,18 +6,57 @@
     <title>Dogs</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <section class="section__first">
+        <div class="container">
             <nav class="navbar">
                 <div class="navbar__row">
                     <div class="navbar__logo">
-                        <img src="./img/logo.svg" alt="logo" class="navbar__logo__image">
+                        <img 
+                        src="./img/logo.svg" 
+                        alt="logo" 
+                        class="navbar__logo__image"/>
                         <strong class="navbar__logo__text">logoipsum</strong>
                     </div>
+                    <div class="navbar__row__right">
+                        <div class="navbar__row__right__blocks">
+                            <span class="material-icons">access_time</span>
+                            <div class="test">
+                                <strong>BOARDING HOURS</strong>
+                                <strong>Mon - Sat: 7:00 am - 6:00 pm</strong>
+                            </div>
+                        </div>
+                        <div class="navbar__row__right__blocks">
+                            <span class="material-icons">phone</span>
+                            <div class="test">
+                                <strong>CALL US</strong>
+                                <strong>(555) Pup-Cares</strong>
+                            </div>
+                        </div>
+                        <button class="pink__button navbar__row__right__button">Make an Appointment</button>
+                    </div>
                 </div>
-                <div class="navbar__row"></div>
+                <div class="navbar__row">
+                    <div class="navbar__row__left">
+                        <ul class="menu">
+                            <li class="menu__item"><a href="#">Services</a></li>
+                            <li class="menu__item"><a href="#">Specials</a></li>
+                            <li class="menu__item"><a href="#">Facilities</a></li>
+                            <li class="menu__item"><a href="#">Reviews</a></li>
+                            <li class="menu__item"><a href="#">Shop</a></li>
+                            <li class="menu__item"><a href="#">About</a></li>
+                        </ul>
+                    </div>
+                    <div class="navbar__row__right">
+                        <a href="#"><span class="material-icons">search</span></a>
+                        <a href="#" class="shop"><span class="material-icons"><div class="shop__count">2</div>shopping_cart</span></a>
+                    </div>
+                </div>
             </nav>
+        </div>
     </section>
 </body>
 </html>  
